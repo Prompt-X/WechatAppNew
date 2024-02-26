@@ -1,0 +1,6 @@
+<van-nav-bar
+  title="perplexity"
+  customClass="my-custom-class"
+  titleClass="my-title-class"
+/>
+<text>pages/discover/index.wxml</text>

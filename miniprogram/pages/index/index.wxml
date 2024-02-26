@@ -1,0 +1,89 @@
+<van-nav-bar
+  title="perplexity"
+  customClass="my-custom-class"
+  titleClass="my-title-class"
+/>
+
+<view class="title">
+<image src="/assets/小程序.svg"/>
+<view class="content">Where knowledge begins</view>
+</view>
+
+<!-- <view class="list">
+<view><text>1XXXXXXXX?</text>
+<text>2XXXXXXXX?</text>
+<text>3XXXXXXXX?</text>
+<text>4XXXXXXXX?</text>
+<text>5XXXXXXXX?</text>
+<text>6XXXXXXXX?</text>
+<text>7XXXXXXXX?</text>
+<text>8XXXXXXXX?</text>
+<text>9XXXXXXXX?</text>
+<text>10XXXXXXXX?</text></view>
+<view><text>11XXXXXXXX?</text>
+<text>12XXXXXXXX?</text>
+<text>13XXXXXXXX?</text>
+<text>14XXXXXXXX?</text>
+<text>15XXXXXXXX?</text>
+<text>16XXXXXXXX?</text>
+<text>17XXXXXXXX?</text>
+<text>18XXXXXXXX?</text>
+<text>19XXXXXXXX?</text>
+<text>20XXXXXXXX?</text></view>
+<view>
+<text>21XXXXXXXX?</text>
+<text>22XXXXXXXX?</text>
+<text>23XXXXXXXX?</text>
+<text>24XXXXXXXX?</text>
+<text>25XXXXXXXX?</text>
+<text>26XXXXXXXX?</text>
+<text>27XXXXXXXX?</text>
+<text>28XXXXXXXX?</text>
+<text>29XXXXXXXX?</text>
+<text>30XXXXXXXX?</text></view>
+</view> -->
+<movable-area>
+  <movable-view
+  direction="horizontal"
+  inertia
+  >
+
+<view><text>1XXXXXXXX?</text>
+<text>2XXXXXXXX?</text>
+<text>3XXXXXXXX?</text>
+<text>4XXXXXXXX?</text>
+<text>5XXXXXXXX?</text>
+<text>6XXXXXXXX?</text>
+<text>7XXXXXXXX?</text>
+<text>8XXXXXXXX?</text>
+<text>9XXXXXXXX?</text>
+<text>10XXXXXXXX?</text></view>
+<view><text>11XXXXXXXX?</text>
+<text>12XXXXXXXX?</text>
+<text>13XXXXXXXX?</text>
+<text>14XXXXXXXX?</text>
+<text>15XXXXXXXX?</text>
+<text>16XXXXXXXX?</text>
+<text>17XXXXXXXX?</text>
+<text>18XXXXXXXX?</text>
+<text>19XXXXXXXX?</text>
+<text>20XXXXXXXX?</text></view>
+<view>
+<text>21XXXXXXXX?</text>
+<text>22XXXXXXXX?</text>
+<text>23XXXXXXXX?</text>
+<text>24XXXXXXXX?</text>
+<text>25XXXXXXXX?</text>
+<text>26XXXXXXXX?</text>
+<text>27XXXXXXXX?</text>
+<text>28XXXXXXXX?</text>
+<text>29XXXXXXXX?</text>
+<text>30XXXXXXXX?</text></view>
+  </movable-view>
+</movable-area>
+
+<view class="input">
+<input type="text" placeholder="Ask anything..."
+maxlength="15"
+placeholder-class="placeholderStyle"
+/></view>

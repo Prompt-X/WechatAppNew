@@ -1,0 +1,48 @@
+{
+
+  "pages": [
+    "pages/index/index",
+    "pages/discover/index",
+    "pages/library/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "custom"
+
+  },
+  "usingComponents": {
+    "van-nav-bar": "@vant/weapp/nav-bar/index"
+  },
+  "tabBar": {
+    "backgroundColor": "#1c1c1a",
+    "color": "#70706e",
+    "selectedColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "Home",
+        "iconPath": "/assets/tabBar/搜索 (1).png",
+        "selectedIconPath": "assets/tabBar/搜索.png"
+      },
+      {
+        "pagePath": "pages/discover/index",
+        "text": "Discover",
+        "iconPath": "/assets/tabBar/指南针,浏览器,指针 (1).png",
+        "selectedIconPath": "assets/tabBar/指南针,浏览器,指针.png"
+      },
+      {
+        "pagePath": "pages/library/index",
+        "text": "library",
+        "iconPath": "/assets/tabBar/图书馆 (1).png",
+        "selectedIconPath": "assets/tabBar/图书馆.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
