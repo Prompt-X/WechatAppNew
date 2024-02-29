@@ -1,0 +1,21 @@
+<view class="frame">
+  <van-nav-bar id="navTabs" left-arrow bind:click-left="onClickLeft" title="New thread" customClass="my-custom-class" titleClass="my-title-class" />
+  <scroll-view scroll-y enhanced show-scrollbar="{{false}}" class="scroll-y">
+    <view class="content">
+      <block wx:for="{{chatRecords}}" wx:key="timestamp">
+        <view class="chat-item {{item.sender ==='User1'?'left':''}}">
+          <view class="top" >
+            <image class="avatar" src="../../assets/avatar/{{item.sender ==='User1'?'2':'1'}}.jpg" />
+            <text class="name">{{item.sender}}</text>
+          </view>
+          <view class="buttom">
+            <text class="message">{{item.message}}</text>
+          </view>
+        </view>
+      </block>
+    </view>
+  </scroll-view>
+  <view class="input">
+    <input type="text" placeholder="Ask anything..." maxlength="15" placeholder-class="placeholderStyle" bindfocus="inputFocus" />
+  </view>
+</view>

@@ -7,7 +7,12 @@ Page({
   data: {
 
   },
-
+  inputFocus(e) {
+    console.log(e);
+    wx.navigateTo({
+      url: "/pages/chat/index",
+    });
+  },
   /**
    * 生命周期函数--监听页面加载
    */

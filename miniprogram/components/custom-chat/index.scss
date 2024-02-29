@@ -1,0 +1,76 @@
+.frame {
+  height: 100%;
+  background-color: #1c1c1a;
+  display: flex;
+  flex-direction: column;
+  van-nav-bar{
+    .my-custom-class {
+      background-color: #1c1c1a !important;
+      .my-title-class {
+        color: #fff;
+        font-size: 60rpx;
+      }
+    }
+    .van-hairline--bottom:after {
+      border-bottom-width: 0px !important;
+    }
+  }
+  .scroll-y{
+    flex-grow: 1;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 20rpx;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    .content{
+      .chat-item{
+        margin: 20rpx 0;
+        color: gray;
+        .top{
+          display: flex;
+          flex-direction: row-reverse;
+          align-items: center;
+          .avatar{
+            width: 60rpx;
+            height: 60rpx;
+            border-radius: 50%;
+          }
+          .name{
+            color: skyblue;
+            margin-inline: 10rpx;
+          }
+          
+        }
+        .buttom{
+          width: 80%;
+          margin: 10rpx auto 0;
+          border: 2px solid rgba($color: #fff, $alpha: 0.5);
+          border-radius: 10rpx;
+          padding: 10rpx;
+        }
+        &.left{
+          .top{
+            flex-direction: row;
+          }
+        }
+      }
+    }
+
+  }
+  .input{
+   
+    margin: 50rpx auto 100rpx;
+    text-align: center;
+    width: 700rpx;
+    height: 70rpx;
+    line-height: 70rpx;
+    background-color: #2d2d2b;
+    border-radius: 30rpx;
+    input{
+      height: 100%;
+    }
+    .placeholderStyle{
+      color: #fff;
+    }
+  }
+}

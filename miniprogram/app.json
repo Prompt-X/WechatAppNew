@@ -1,5 +1,4 @@
 {
-
   "pages": [
     "pages/index/index",
     "pages/discover/index",
@@ -8,7 +7,6 @@
   "window": {
     "navigationBarTextStyle": "white",
     "navigationStyle": "custom"
-
   },
   "usingComponents": {
     "van-nav-bar": "@vant/weapp/nav-bar/index"

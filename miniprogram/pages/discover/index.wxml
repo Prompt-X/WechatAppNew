@@ -4,3 +4,11 @@
   titleClass="my-title-class"
 />
 <text>pages/discover/index.wxml</text>
+<view class="input">
+  <input 
+  type="text" 
+  placeholder="Ask anything..." 
+  maxlength="15" 
+  placeholder-class="placeholderStyle"
+  bindfocus="inputFocus" />
+</view>
